@@ -1,0 +1,187 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body{
+    background-color: #e0e0e0;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  main{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+  }
+
+  .container{
+    padding: 15px;
+  }
+
+  .containerLeft{
+    max-width: 500px;
+  }
+
+  .gris{
+    color: #828282;
+  }
+
+  .grisclaro{
+    color: #e0e0e0;
+  }
+
+  .nombre{
+    margin-top: 10px;
+  }
+
+  .contacto{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .perfil{
+    background-color: #fff;
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 10px;
+    font-weight: normal;
+  }
+
+  .experiencia{
+    background-color: #fff;
+    padding: 20px;
+    line-height: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .exp-class{
+    padding-left: 20px;
+  }
+
+  .exp-descrip{
+    margin-top: 10px;
+  }
+
+  .hobbies{
+    margin-top: 25px;
+    line-height: 30px;
+  }
+
+  .porcentaje{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .separacion{
+    padding: 50px;
+  }
+
+  .list{
+    color: #4f4f4f;
+    margin-bottom: 10px;
+  }
+
+  .lenguajes{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  progress{
+    width: 100%;
+    height: 25px;
+  }
+
+  .proyectos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+
+  .demo{
+    background-color: #2f80ed;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    font-weight: bolder;
+  }
+
+  .code{
+    background-color: #fff;
+    color: #2f80ed;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #2f80ed;
+    width: 100px;
+    font-weight: bolder;
+  }
+
+  .blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .organizar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+    line-height: 30px;
+    color: #4f4f4f;
+    font-weight: normal;
+  }
+
+  .link{
+    color: #2f80ed;
+    margin-top: 20px;
+  }
+
+  footer{
+    text-align: center;
+    padding: 30px;
+    color: #828282;;
+  }
+
+  span{
+    font-weight: bolder;
+    color: #000;;
+  }
+
+  @media (max-width: 1100px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .porcentaje{
+        grid-template-columns: 1fr;
+    }
+
+    .proyectos{
+        grid-template-columns: 1fr;
+    }
+
+    .blog{
+        grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 800px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    .containerRight{
+        max-width: 500px;
+    }
+  }

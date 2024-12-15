@@ -1,0 +1,8 @@
+  --color-principal: #2f80ed;
+  --color-secundario: #4f4f4f;
+  --color-negro: #000;
+  --color-blanco: #fff;
+  --color-gray: #828282;
+  --color-gris-claro: #e0e0e0;
+  /* tipo de letra */
+  --fuente-letra: "Montserrat", sans-serif;
